@@ -10,6 +10,11 @@
 body {
   background-color: $very-light-gray;
   font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
@@ -74,6 +79,48 @@ body {
         .reply-btn:hover {
           cursor: pointer;
         }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: white;
+  margin: 1em;
+
+  .comment-card {
+    width: 100%;
+    padding: 1em;
+
+    input {
+      width: 100%;
+      padding: 2em;
+      border: 0.5px solid $light-gray;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 90%;
+      padding: 1em 0;
+
+      img {
+        width: 40px;
+      }
+
+      .send-btn {
+        background-color: $moderate-blue;
+        color: white;
+        border: none;
+        padding: 1em 2em;
+        border-radius: 7px;
+        text-transform: uppercase;
       }
     }
   }

@@ -6,6 +6,7 @@ const avatar = document.querySelector('.avatar'),
       replyButton = document.querySelector('.reply-btn'),
       container = document.querySelector('.container');
 
+// Fetch JSON data
 const getData = async () => {
   const res = await fetch('./data.json');
 
@@ -55,8 +56,6 @@ const generateComment = () => {
           </div>
         </div>
       </div>
-  
-  
   `;
 }
 
