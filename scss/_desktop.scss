@@ -33,10 +33,18 @@
         margin: 1em;
 
         .score-button {
-          padding: 1em;
+          padding: 0.5em;
         }
 
         .score-button:hover {
+          cursor: pointer;
+        }
+
+        #minus-button:hover {
+          cursor: pointer;
+        }
+
+        #plus-button:hover {
           cursor: pointer;
         }
       }
@@ -48,6 +56,9 @@
 
           .card-header-right {
             .reply {
+              .reply-btn:hover {
+                cursor: pointer;
+              }
               .reply-text {
                 color: $dark-blue;
                 font-weight: bold;
