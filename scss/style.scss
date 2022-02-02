@@ -116,6 +116,40 @@ body {
     }
   }
 
+  .reply-content-desktop {
+    width: 90%;
+    padding: 1em;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+
+    input {
+      width: 100%;
+      padding: 1em 2em 4em 1em;
+      border: 0.5px solid $light-gray;
+    }
+
+    img {
+      width: 40px;
+      margin: 0 1em;
+    }
+
+    .send-btn {
+      background-color: $moderate-blue;
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 7px;
+      text-transform: uppercase;
+      margin: 0 1em;
+    }
+
+    .send-btn:hover {
+      cursor: pointer;
+      background-color: $light-grayish-blue;
+    }
+  }
+
   .comment-reply {
     margin-top: 1em;
     margin-left: 1.25em;
